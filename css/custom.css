@@ -447,7 +447,33 @@ input[type=checkbox]:checked ~ #menu{
 	}
 /*--------------------------------------------------------------
 # Header Responsive Style End
---------------------------------------------------------------*/
+-------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Content Responsive Style Start
+-------------------------------------------------------------*/
+	.brand :nth-child(1) .brand-logo {
+	    margin-left: 0;
+	}
+	.brand {
+	    display: block;
+	    text-align: center;
+	    margin-right: 0;
+	    padding: 2%;
+	}
+	.featured-products-group {
+	    width: 100%;
+	    padding-left: 3%;
+	}
+	.featured-products-box {
+	    width: 94%;
+	    display: block;
+	}
+	.featured-products-box:nth-child(3), .featured-products-box:nth-child(6) {
+	    margin-top: 8%;
+	}
+/*--------------------------------------------------------------
+# Content Responsive Style End
+-------------------------------------------------------------*/
 }
 
 
